@@ -1,0 +1,149 @@
+/* header */
+header {
+    background-color: #F6BD88;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header_logo{
+    align-self: flex-start;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+}
+.header_logo img {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    list-style: none;
+    margin-left: 0;
+}
+
+.header_text {
+    font-size: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:200px ;
+    list-style: none;
+    font-size: 28px;
+}
+
+.header_text #items{
+    font-size: 28px; 
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap:100px;
+}
+
+.header_text a{
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+.header_text a:hover{
+border-bottom:2px rgb(53, 53, 53) solid ;
+
+transition: border-bottom 0.2s ease;
+}
+
+
+.member_icon {
+    position: absolute;
+    right: 25px;
+    top: 25%;
+    font-size: 40px;
+    color: rgb(250, 238, 223);
+}
+
+/* 上方header */
+.logo {
+    width: auto;
+    height: 50px;
+}
+
+/* 右方header */
+aside {
+    width: 65px;
+    height: 90%;
+    bottom: 0;
+    position: fixed;
+    top: 80PX;
+    right: 0;
+    background-color: #F6BD88;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.about_us,
+.seach_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50%;
+    font-size: 20px;
+}
+
+.seach_icon .icon {
+    width: 100%;
+    font-size: 30px;
+    color: #DD631E;
+}
+
+.about_us {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    writing-mode: vertical-lr;
+    gap: 10%;
+    color: white;
+    font-size: 20px;
+}
+
+.about_us .block {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    text-align: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.about_us .block a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2b2b2b;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.about_us .block:hover {
+    background-color: #DD631E;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
